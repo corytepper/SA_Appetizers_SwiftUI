@@ -15,6 +15,7 @@
 		2FD1301E29511450003A5198 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1301D29511450003A5198 /* AccountView.swift */; };
 		2FD1302029511457003A5198 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1301F29511457003A5198 /* OrderView.swift */; };
 		2FD1302229512DE6003A5198 /* Appetizers_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1302129512DE6003A5198 /* Appetizers_Model.swift */; };
+		2FD1302629529202003A5198 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1302529529202003A5198 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2FD1301D29511450003A5198 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		2FD1301F29511457003A5198 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		2FD1302129512DE6003A5198 /* Appetizers_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizers_Model.swift; sourceTree = "<group>"; };
+		2FD1302529529202003A5198 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2FD1301D29511450003A5198 /* AccountView.swift */,
 				2FD1301F29511457003A5198 /* OrderView.swift */,
 				2FD1302129512DE6003A5198 /* Appetizers_Model.swift */,
+				2FD1302529529202003A5198 /* AppetizerListCell.swift */,
 			);
 			path = SA_Appetizers_SwiftUI;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD1301E29511450003A5198 /* AccountView.swift in Sources */,
+				2FD1302629529202003A5198 /* AppetizerListCell.swift in Sources */,
 				2FD13010295113C9003A5198 /* AppetizerTabView.swift in Sources */,
 				2FD1302229512DE6003A5198 /* Appetizers_Model.swift in Sources */,
 				2FD1300E295113C9003A5198 /* SA_Appetizers_SwiftUIApp.swift in Sources */,
