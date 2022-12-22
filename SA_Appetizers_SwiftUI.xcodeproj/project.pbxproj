@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F8CBFF22953B260008BCC32 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8CBFF12953B260008BCC32 /* AppetizerListViewModel.swift */; };
+		2F8CBFF42954B360008BCC32 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8CBFF32954B360008BCC32 /* Alert.swift */; };
 		2FD1300E295113C9003A5198 /* SA_Appetizers_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1300D295113C9003A5198 /* SA_Appetizers_SwiftUIApp.swift */; };
 		2FD13010295113C9003A5198 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1300F295113C9003A5198 /* AppetizerTabView.swift */; };
 		2FD13012295113CA003A5198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD13011295113CA003A5198 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		2F8CBFF12953B260008BCC32 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		2F8CBFF32954B360008BCC32 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		2FD1300A295113C9003A5198 /* SA_Appetizers_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SA_Appetizers_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD1300D295113C9003A5198 /* SA_Appetizers_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SA_Appetizers_SwiftUIApp.swift; sourceTree = "<group>"; };
 		2FD1300F295113C9003A5198 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				2FD130272953799C003A5198 /* NetworkManager.swift */,
 				2FD1302929537FAB003A5198 /* Appetizers_Error.swift */,
 				2F8CBFF12953B260008BCC32 /* AppetizerListViewModel.swift */,
+				2F8CBFF32954B360008BCC32 /* Alert.swift */,
 			);
 			path = SA_Appetizers_SwiftUI;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				2FD130282953799C003A5198 /* NetworkManager.swift in Sources */,
 				2FD1300E295113C9003A5198 /* SA_Appetizers_SwiftUIApp.swift in Sources */,
 				2FD1301C29511432003A5198 /* AppetizerListView.swift in Sources */,
+				2F8CBFF42954B360008BCC32 /* Alert.swift in Sources */,
 				2FD1302A29537FAB003A5198 /* Appetizers_Error.swift in Sources */,
 				2FD1302029511457003A5198 /* OrderView.swift in Sources */,
 			);
