@@ -72,6 +72,7 @@
 		2F125AAC29563AA200C810AA /* AppetizerList */ = {
 			isa = PBXGroup;
 			children = (
+				2F125AB829563EF700C810AA /* AppetizerDetailView.swift */,
 				2FD1301B29511432003A5198 /* AppetizerListView.swift */,
 				2F8CBFF12953B260008BCC32 /* AppetizerListViewModel.swift */,
 			);
@@ -197,7 +198,6 @@
 				2FD1300D295113C9003A5198 /* SA_Appetizers_SwiftUIApp.swift */,
 				2FD13011295113CA003A5198 /* Assets.xcassets */,
 				2FD13013295113CA003A5198 /* Preview Content */,
-				2F125AB829563EF700C810AA /* AppetizerDetailView.swift */,
 			);
 			path = SA_Appetizers_SwiftUI;
 			sourceTree = "<group>";
