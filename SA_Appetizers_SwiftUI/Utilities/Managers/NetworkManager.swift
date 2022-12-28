@@ -57,7 +57,7 @@ final class NetworkManager {
             throw AppetizersError.invalidURL
         }
         
-        let (data,response) = try await URLSession.shared.data(from: url)
+        let (data, _) = try await URLSession.shared.data(from: url)
         
         do {
             let decoder = JSONDecoder()
@@ -90,7 +90,7 @@ final class NetworkManager {
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
             
-            guard let data = data, let image = UIImage(data: data) else {
+            guard let data, let image = UIImage(data: data) else {
                 completed(nil)
                 return
             }
