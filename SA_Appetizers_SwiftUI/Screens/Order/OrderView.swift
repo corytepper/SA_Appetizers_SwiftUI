@@ -22,14 +22,14 @@ struct OrderView: View {
                         }
                         .onDelete(perform: order.deleteItem)
                     }
-                    
                     .listStyle(.plain)
                     
                     Button {
                         print("order placed")
                     } label: {
-                        Appetizer_Button(title: "$\(order.totalPrice, specifier: "%.2f") - Place Order")
+                        Text("$\(order.totalPrice, specifier: "%.2f") - Place Order")
                     }
+                    .modifier(StandardButtonStyle())
                     .padding(.bottom, 25)
                 }
                 
